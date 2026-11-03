@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f9ff" />
+    <meta
+      name="description"
+      content="Descarca si instaleaza aplicatia RangeBuddy pentru Android."
+    />
+    <title>RangeBuddy</title>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="download-page">
+      <h1>Denicar</h1>
+      <a
+        class="download-button"
+        id="download-button"
+        href="/downloads/app.apk"
+        download="RangeBuddy.apk"
+        aria-labelledby="download-label"
+      >
+        <svg viewBox="0 0 100 100" fill="none" aria-hidden="true">
+          <path
+            d="M50 15v46M32 43l18 18 18-18M22 65v16h56V65"
+            stroke="currentColor"
+            stroke-width="5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+      <p id="download-label">
+        Apasa pe buton<br />pentru instalarea aplicatiei
+      </p>
+      <p
+        class="download-status"
+        id="download-status"
+        role="status"
+        aria-live="polite"
+      ></p>
+    </main>
+  </body>
+</html>
